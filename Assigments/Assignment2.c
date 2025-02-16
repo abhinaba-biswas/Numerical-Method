@@ -52,6 +52,8 @@ int main() {
 
     gen_table(t, f, n);
     double velocity = simpsons_rule(f, n, h);
+    printf("Number of subintervals (n) = %d\n", n);
+    printf("Step size (h) = %.2lf\n", h);
     printf("The velocity of the rocket at t = 80 sec is: %.2f cm/sec\n", velocity);
 
     return 0;

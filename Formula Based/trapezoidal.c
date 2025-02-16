@@ -41,5 +41,5 @@ int main(){
 
     gen_table(a,b,n);
 
-    int I = 
+    float I = (h/2)*
 }

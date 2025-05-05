@@ -54,7 +54,7 @@ int main() {
     double velocity = simpsons_rule(f, n, h);
     printf("Number of subintervals (n) = %d\n", n);
     printf("Step size (h) = %.2lf\n", h);
-    printf("The velocity of the rocket at t = 80 sec is: %.2f cm/sec\n", velocity);
+    printf("The velocity of the rocket at t = 80 sec is: %.2lf cm/sec\n", velocity);
 
     return 0;
 }
